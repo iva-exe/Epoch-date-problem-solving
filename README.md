@@ -4,7 +4,7 @@ Epoch / date problem solving
 Pokud data nesedí pamatuj, že datum je ve formátu "měsíc.den.rok" při zadávání.
 Při výpisu jsou ale již dělaná podle lokálního času a jsou tak ve formátu "den.měsíc.rok".
 
-Příkaz by měl být typu "-toepoch 1.8.22" což odkazuje na den 8. ledna 2022.
+Příkaz by měl být typu "-toepoch 1.8.22" nebo "-toepoch 1/8/22/20:00" což odkazuje na den 8. ledna 2022 (8 hodin večer).
 
 Z epochu poté můžete vytvořit discord zprávu s těmito fromamy - https://pastebin.com/rJFE9yxq
 
